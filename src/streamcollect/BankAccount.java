@@ -7,7 +7,7 @@ public class BankAccount {
 	private double accountBalance;
 
 	public BankAccount(int accountNumber, String accountType, double accountBalance) {
-		super();
+		
 		this.accountNumber = accountNumber;
 		this.accountType = accountType;
 		this.accountBalance = accountBalance;
