@@ -8,6 +8,14 @@ public Person(int id, String name) {
 	this.id = id;
 	this.name = name;
 }
+public static int compareByNameThenId(Person p1,Person p2) {
+	if(p1.getName().equals(p2.getName())) {
+		return p1.id - p2.id;
+	}
+	else {
+		return p1.getName().compareTo(p2.getName());
+	}
+}
 public int getId() {
 	return id;
 }
